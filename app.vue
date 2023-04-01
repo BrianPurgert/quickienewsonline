@@ -29,7 +29,8 @@ const trendingNews = ref([])
 async function fetchTrendingNews() {
 	try {
 		const response = await axios.get('/trending-news')
-		trendingNews.value = response.data
+		trendingNews.value = response.value
+
 	} catch (error) {
 		console.error('Error fetching trending news:', error)
 	}
