@@ -14,6 +14,7 @@
 			</v-card-text >
 		</v-card >
 		<v-btn class = "mt-10" >Quickie News Online</v-btn >
+		<v-code >{{ trendingNews }}</v-code >
 	</div >
 </template >
 
