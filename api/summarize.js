@@ -6,7 +6,7 @@ module.exports = async (req, res) => {
 
   try {
     const result = await openai.Completion.create({
-      engine: "text-davinci-002",
+      engine: "davinci",
       prompt: `Please provide a summary of the news article at the following URL: ${article_url}`,
       temperature: 0.7,
       max_tokens: 150,
