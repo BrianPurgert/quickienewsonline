@@ -1,0 +1,16 @@
+Gemfile.lock
+Gemfile
+# IntelliJ project files
+.idea
+*.iml
+
+### Nuxtjs template
+# Nuxt build
+.nuxt
+
+### Vuejs template
+
+node_modules/
+
+
+
